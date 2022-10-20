@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+
+.myheader-container {
+    display: flex;
+    width: 100%;
+    background-color: #fc85ae;
+    justify-content: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border-bottom: 7px dotted #9e579d;
+    border-top: 7px dotted #9e579d;
+    
+}
+
+.myheader-title {
+    margin: 20px auto;
+}
+
+

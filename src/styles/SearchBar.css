@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.SearchBar-container {
+    width: 100%;
+    display: flex;
+    background-color: #9e579d;
+    justify-content: center;
+}
+
+.SearchBar-bar {
+    width: 35%;
+    height: 30px;
+    margin: 13px auto;
+    border-radius: 20px;
+    padding: 10px; 
+    font-size: 22px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.SearchBar-bar:focus {
+    background-color: aliceblue;
+}
