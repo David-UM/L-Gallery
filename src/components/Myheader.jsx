@@ -1,7 +1,7 @@
 import "./../styles/myheader.css" 
 
 
-const Myheader = () => {
+const MyHeader = () => {
     return (
         <>
             <div className="myheader-container">
@@ -11,4 +11,4 @@ const Myheader = () => {
     )
 }
 
-export default Myheader;
+export default MyHeader;
