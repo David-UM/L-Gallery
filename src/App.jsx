@@ -5,6 +5,7 @@ import FakeData from "./data/FakeData.js"
 import Photo  from "./components/Photo"
 import a from "./assets/Photos/Photo-1.jpeg"
 import './App.css'
+import SearchBar from './components/SearchBar'
 
 function App() {
 
@@ -18,15 +19,22 @@ function App() {
 
   return (
     <div className="App">
-       <h1>{state}</h1>
-       <input className="FirstSearchBar" type="text" onChange={handleOnChange}/>
+       <Myheader/>
+       <SearchBar handle={handleOnChange}/>
+       {/* <h1>{state}</h1>
+       <input className="FirstSearchBar" type="text" onChange={handleOnChange}/> */}
         {
-          state === ""?FakeData.map((photo) => <Photo number={photo.img.toString()} alt={photo.mood} key={photo.img.toString()}/>):FakeData.filter(photo => photo.mood === state).map((photo) => <Photo number={photo.img.toString()} alt={photo.mood} key={photo.img.toString()}/>)
+          state === ""?FakeData.map((photo) => 
+          <Photo number={photo.img.toString()} alt={photo.mood} key={photo.img.toString()}/>
+          )
+          :FakeData.filter(photo => photo.mood === state).map((photo) => 
+          <Photo number={photo.img.toString()} alt={photo.mood} key={photo.img.toString()}/>
+          )
   
             
           
         }
-        
+
     </div>
   )
 }
