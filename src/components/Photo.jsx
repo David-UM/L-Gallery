@@ -4,7 +4,7 @@
 const Photo = ({number, mood}) => {
     return (
         <>
-            <img src={`https://cdn.freecodecamp.org/curriculum/css-photo-gallery/${number}.jpg`} alt={mood} key={number} className="Photo"/>
+            <img src={`https://raw.githubusercontent.com/David-UM/L-Gallery/main/src/assets/Photos/Photo-${number}.jpeg`} alt={mood} key={number} className="Photo"/>
         </>
     );
 }
