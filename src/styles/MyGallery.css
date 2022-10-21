@@ -22,7 +22,7 @@
 }
 
 .Photo:hover {
-    border: 10px dotted white ;
+    border: 10px dotted #FF7619 ;
     border-radius: 20%;
     height: 350px;
     max-width: 400px;
