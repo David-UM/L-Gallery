@@ -65,7 +65,7 @@ const Data = [
     }, 
     {
         img: 17, 
-        moood: ["Window", "Jin"]
+        mood: ["Window", "Jin"]
     }
 ]
 
