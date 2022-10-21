@@ -1,55 +1,71 @@
 const Data = [
     {
         img:1,
-        mood: "Jin",
+        mood:["Bag", "Jin"],
     },
     {
         img:2,
-        mood: "Jin",
+        mood:["Profile", "Jin"],
     },
     {
         img:3,
-        mood:"Jin",
+        mood:["Jin"],
     },
     {
         img:4,
-        mood: "Yuno",
+        mood:["Sleeping", "Sleep", "Yuno"],
     },
     {
         img:5,
-        mood:"Yuno",
+        mood:["Yuno", "Hungry"],
     },
     {
         img:6,
-        mood:"Yuno",
+        mood:["Yuno", "Sleeping", "Sleep"],
     },
     {
         img:7,
-        mood:"Papi",
+        mood:["Profile", "Papi"],
     },
     {
         img:8,
-        mood:"Jin",
+        mood:["Jin", "Sleeping", "Sleep"],
     },
     {
         img:9,
-        mood:"Jin",
+        mood:["Profile", "Jin"],
     },
     {
         img:10,
-        mood:"Yuno",
+        mood:["Profile", "Yuno"],
     },
     {
         img:11,
-        mood:"Yuno",
+        mood:["Yuno"],
     },
     {
         img:12,
-        mood:"Yuno",
+        mood:["Angry", "Yuno"],
     },
     {
         img:13,
-        mood:"Yuno",
+        mood:["Yuno", "Sleepy"],
+    },
+    {
+        img: 14,
+        mood: ["Jin", "Balls"]
+    },
+    {
+        img: 15,
+        mood: ["Jin", "Balls"]
+    },
+    {
+        img: 16,
+        mood: ["Papi", "Outside"]
+    }, 
+    {
+        img: 17, 
+        moood: ["Window", "Jin"]
     }
 ]
 

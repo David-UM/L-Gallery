@@ -11,7 +11,7 @@ const MyGallery = ({estado}) => {
                 estado === ""?FakeData.map((photo) => 
                 <Photo number={photo.img.toString()} alt={photo.mood} key={photo.img.toString()}/>
                 )
-                :FakeData.filter(photo => photo.mood.toLowerCase() === estado).map((photo) => 
+                :FakeData.filter(photo => photo.mood.join("-").toLowerCase().includes(estado)).map((photo) => 
                 <Photo number={photo.img.toString()} alt={photo.mood} key={photo.img.toString()}/>
                 )  
             }

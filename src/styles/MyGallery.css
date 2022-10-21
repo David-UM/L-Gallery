@@ -24,8 +24,8 @@
 .Photo:hover {
     border: 10px dotted #FF7619 ;
     border-radius: 20%;
-    height: 350px;
-    max-width: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 .MyGallery::after {
