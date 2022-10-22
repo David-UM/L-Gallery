@@ -23,13 +23,14 @@ function App() {
 
   return (
     <div className="App">
+       <div className="header">
        <MyHeader/>
        <SearchBar handle={handleOnChange} number={number}/>
+       </div>
+       
        <MyGallery estado={state}/>
         
-        {console.log(number)}
-        {console.log(state)}
-        {console.log(FakeData.filter(photo => photo.mood.join("-").toLowerCase().includes(state)))}
+        
     </div>
   )
 }
