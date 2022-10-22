@@ -42,9 +42,9 @@
     padding: 0px 0px 5px 0px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
     .SearchBar-result{
         width: 70%;
-        font-size: 18px;
+        font-size: 19px;
     }
 }
