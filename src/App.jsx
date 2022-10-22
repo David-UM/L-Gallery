@@ -11,19 +11,25 @@ function App() {
 
   let [state, setState] = useState("")
 
-  const handleOnChange = (e) => {
-    return setState(state = e.target.value.toLowerCase(),)
-  };
+  let [number, setNumber] = useState(FakeData.length)
 
+  const handleOnChange = (e) => {
+    setState(state = e.target.value.toLowerCase());
+    setNumber(number = FakeData.filter(photo => photo.mood.join("-").toLowerCase().includes(state)).length)
+    
+  };
+  
   /* const PhotoList =  */
 
   return (
     <div className="App">
        <MyHeader/>
-       <SearchBar handle={handleOnChange}/>
+       <SearchBar handle={handleOnChange} number={number}/>
        <MyGallery estado={state}/>
         
-
+        {console.log(number)}
+        {console.log(state)}
+        {console.log(FakeData.filter(photo => photo.mood.join("-").toLowerCase().includes(state)))}
     </div>
   )
 }

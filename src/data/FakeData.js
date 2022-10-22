@@ -25,7 +25,7 @@ const Data = [
     },
     {
         img:7,
-        mood:["Profile", "Papi"],
+        mood:["Profile", "Pappy"],
     },
     {
         img:8,
@@ -61,7 +61,7 @@ const Data = [
     },
     {
         img: 16,
-        mood: ["Papi", "Outside"]
+        mood: ["Pappy", "Outside"]
     }, 
     {
         img: 17, 
