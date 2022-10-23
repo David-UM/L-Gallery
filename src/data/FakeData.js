@@ -1,72 +1,46 @@
 const Data = [
-    {
-        img:1,
-        mood:["Bag", "Jin"],
-    },
-    {
-        img:2,
-        mood:["Profile", "Jin"],
-    },
-    {
-        img:3,
-        mood:["Jin"],
-    },
-    {
-        img:4,
-        mood:["Sleeping", "Sleep", "Yuno"],
-    },
-    {
-        img:5,
-        mood:["Yuno", "Hungry"],
-    },
-    {
-        img:6,
-        mood:["Yuno", "Sleeping", "Sleep"],
-    },
-    {
-        img:7,
-        mood:["Profile", "Pappy"],
-    },
-    {
-        img:8,
-        mood:["Jin", "Sleeping", "Sleep"],
-    },
-    {
-        img:9,
-        mood:["Profile", "Jin"],
-    },
-    {
-        img:10,
-        mood:["Profile", "Yuno"],
-    },
-    {
-        img:11,
-        mood:["Yuno"],
-    },
-    {
-        img:12,
-        mood:["Angry", "Yuno"],
-    },
-    {
-        img:13,
-        mood:["Yuno", "Sleepy"],
-    },
-    {
-        img: 14,
-        mood: ["Jin", "Balls"]
-    },
-    {
-        img: 15,
-        mood: ["Jin", "Balls"]
-    },
-    {
-        img: 16,
-        mood: ["Pappy", "Outside"]
-    }, 
-    {
-        img: 17, 
-        mood: ["Window", "Jin"]
-    }
+    {img:1,mood:["Bag", "Jin", "cat"]},
+    {img:2,mood:["Profile", "Jin", "cat"]},
+    {img:3,mood:["Jin", "cat"]},
+    {img:4,mood:["Sleeping", "Sleep", "Yuno", "cat"]},
+    {img:5,mood:["Yuno", "Hungry", "cat"]},
+    {img:6,mood:["Yuno", "Sleeping", "Sleep", "cat"]},
+    {img:7,mood:["Profile", "Pappy", "Dog"]},
+    {img:8,mood:["Jin", "Sleeping", "Sleep", "cat"]},
+    {img:9,mood:["Profile", "Jin", "cat"]},
+    {img:10,mood:["Profile", "Yuno", "cat"]},
+    {img:11,mood:["Yuno", "cat"]},
+    {img:12,mood:["Angry", "Yuno", "cat"]},
+    {img:13,mood:["Yuno", "Sleepy", "cat"]},
+    {img:14,mood:["Jin", "Balls", "cat"]},
+    {img:15,mood:["Jin", "Balls", "cat"]},
+    {img:16,mood:["Pappy", "Outside", "dog"]}, 
+    {img:17,mood:["Window", "Jin", "cat"]},
+    {img:18,mood:["cat", "Yuno"]},
+    {img:19,mood:["Jin", "Cat"]},
+    {img:20,mood:["Jin", "Cat"]},
+    {img:21,mood:["Yuno", "Cat"]},
+    {img:22,mood:["Yuno", "Cat"]},
+    {img:23,mood:["Yuno", "Cat", "Profile"]},
+    {img:24,mood:["Yuno", "Cat", "Sleepy"]},
+    {img:25,mood:["Jin", "Cat", "Kiki", "Jin and Kiki"]},
+    {img:26,mood:["Kiki", "Cat"]},
+    {img:27,mood:["Jin and Kiki", "Jin", "Kiki", "Cat"]},
+    {img:28,mood:["Jin and Kiki", "Jin", "Kiki", "Cat"]},
+    {img:29,mood:["Bella", "Dog"]},
+    {img:30,mood:["Yuno", "Cat", "Sleepy"]},
+    {img:31,mood:["Yuno", "Cat"]},
+    {img:32,mood:["Yuno", "Cat"]},
+    {img:33,mood:["Jin", "Cat"]},
+    {img:34,mood:["Jin", "Cat"]},
+    {img:35,mood:["Yuno", "Laying", "Cat"]},
+    {img:36,mood:["Jin", "Balls"]},
+    {img:37,mood:["Jin", "Balls"]},
+    {img:38,mood:["Yuno", "Cat"]},
+    {img:39,mood:["Pappy", "Dog"]},
+    {img:40,mood:["Bella", "Dog"]},
+    {img:41,mood:["Pappy", "Dog"]},
+
 ]
 
 export default Data;
