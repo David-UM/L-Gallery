@@ -13,13 +13,13 @@
 
 .SearchBar-bar {
 	width: 13em;
-	height: 40px;
-	margin: 20px auto;
+	height: 50px;
+	margin: 10px auto;
 	border-radius: 20px;
-	padding: 10px;
+	padding: 0px 12px;
 	font-size: 25px;
 	font-family: 'Inconsolata', monospace;
-	border-color: #fff591;
+	border-color: #f88706;
 	border-width: 3px;
 	display: flex;
 	font-family: 'Kalam', cursive;
