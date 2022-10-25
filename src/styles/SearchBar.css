@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 .SearchBar-container {
 	width: 100%;
@@ -20,12 +22,13 @@
 	border-color: #fff591;
 	border-width: 3px;
 	display: flex;
+	font-family: 'Kalam', cursive;
 }
 
-.SearchBar-bar:focus {
-	background-color: aliceblue;
-	color: darkblue;
-}
+/* .SearchBar-bar:focus {
+	background-color: #d4aa1f;
+	color: rgb(182, 122, 12);
+} */
 
 .SearchBar-result {
 	display: flex;
@@ -39,11 +42,12 @@
 	margin: 0px auto -10px auto;
 	border-radius: 0px 0px 30px 30px;
 	padding: 0px 0px 5px 0px;
+	font-family: 'Fuzzy Bubbles', cursive;
 }
 
 @media screen and (max-width: 550px) {
 	.SearchBar-result {
 		width: 70%;
-		font-size: 19px;
+		font-size: 18px;
 	}
 }

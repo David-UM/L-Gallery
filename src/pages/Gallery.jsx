@@ -19,14 +19,14 @@ const Gallery = () => {
 		);
 	};
 	return (
-		<div className='App'>
+		<>
 			<div className='header'>
 				<TheHeader />
-				<SearchBar handle={handleOnChange} number={number} />
+				<SearchBar handle={handleOnChange} number={number} input={input} />
 			</div>
 
 			<PhotosGallery input={input} />
-		</div>
+		</>
 	);
 };
 
