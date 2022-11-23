@@ -1,3 +1,5 @@
+import './../styles/photo.css';
+
 const Photo = ({ index, description }) => {
 	return (
 		<>
