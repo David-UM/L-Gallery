@@ -1,5 +1,5 @@
 import './../styles/NoResults.css';
-
+/* Este componente se muestra cuando no se encuentra lo que buscas en SearchBar.jsx */
 const NoResults = () => {
 	return (
 		<>

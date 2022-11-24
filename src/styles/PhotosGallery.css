@@ -1,21 +1,16 @@
 .PhotosGallery-container {
 	display: flex;
-	width: 70%;
+	width: 100%;
+	max-width: 80em;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	gap: 0px;
-	
-	margin: 200px auto 100px auto;
-	padding: 20px 0px;
+	margin: 200px auto 50px auto;
+	padding: 20px 10px;
 }
 
-@media screen and (max-width: 414px) {
-	.MyGallery-container {
-		width: 100%;
-	}
-}
 
 
 
