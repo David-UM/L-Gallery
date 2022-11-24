@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 .Photo {
 	width: 100%;
 	max-width: 350px;
@@ -19,6 +21,10 @@
 	
 }
 
+.Photo-container:hover > .photo-button {
+	visibility: visible;
+}
+
 .Photo-container {
 	display: flex;
 	width: 100%;
@@ -26,7 +32,32 @@
 	max-height: 350px;
 	height: 22em;
 	margin: 8px;
-	border-radius: 10%;
+	border-radius: 20%;
 	transition: all 400ms ease-out;
 	box-sizing: border-box;
+	background-color: #fffdd0;
+	align-items: flex-end	;
+	justify-content: center;
+}
+
+.photo-button {
+	z-index: 8;
+	height: 1.5em;
+	width: 200px;
+	position: absolute;
+	border-radius: 15px;
+	margin-bottom: 1em;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 2em;
+	font-weight: 100;
+	padding: 0;
+	border-width: 0;
+	cursor: pointer;
+	transition: background-color 700ms ease-out;
+	visibility: hidden;
+}
+
+.photo-button:hover {
+	background-color: #000	;
+	color: #fff;
 }

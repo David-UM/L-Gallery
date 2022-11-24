@@ -27,3 +27,11 @@ body::-webkit-scrollbar-thumb:hover {
 * {
 	box-sizing: border-box;
 }
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}

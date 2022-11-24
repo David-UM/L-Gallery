@@ -9,6 +9,7 @@ const Photo = ({ index, description }) => {
 				key={index}
 				className='Photo'
 			/>
+			<button className='photo-button hidden'>See full photo</button>
 		</div>
 	);
 };
