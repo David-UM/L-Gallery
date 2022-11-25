@@ -1,5 +1,5 @@
 import './../styles/photo.css';
-
+/* Componente que renderiza cada foto y recibe dos propiedades que vienen del componente PhotoGallery.jsx */
 const Photo = ({ index, description }) => {
 	return (
 		<div className='Photo-container'>

@@ -1,5 +1,5 @@
 import './../styles/TheHeader.css';
-
+/* Esto solo devuelve el header */
 const MyHeader = () => {
 	return (
 		<>
