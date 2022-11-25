@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 .NoResults {
-    margin: 250px 0;
+    
     text-align: center;
     font-size: 70px;
     font-family: 'Permanent Marker', cursive;
     border-bottom: 10px double #000;
+    margin: 30vh 70vh;
+    position: absolute;
 }
 
 @media screen and (max-width: 414px) {
